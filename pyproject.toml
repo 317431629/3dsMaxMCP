@@ -29,9 +29,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/max-mcp/max-mcp"
-Repository = "https://github.com/max-mcp/max-mcp"
-Issues = "https://github.com/max-mcp/max-mcp/issues"
+Homepage = "https://github.com/317431629/3dsMaxMCP"
+Repository = "https://github.com/317431629/3dsMaxMCP.git"
 
 [project.scripts]
 max-mcp = "max_mcp:main"

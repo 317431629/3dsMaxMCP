@@ -32,8 +32,8 @@ pip install max-mcp
 ### 从源码安装
 
 ```bash
-git clone https://github.com/max-mcp/max-mcp.git
-cd max-mcp
+git clone https://github.com/317431629/3dsMaxMCP.git
+cd 3dsMaxMCP
 pip install -e .
 ```
 

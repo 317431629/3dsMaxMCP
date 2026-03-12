@@ -13,7 +13,7 @@
 
 -- 获取当前脚本所在目录
 local scriptDir = getFilenamePath (getSourceFileName())
-local listenerScript = scriptDir + @"core\connector\max_server_listener.py"
+local listenerScript = scriptDir + @"max_mcp\connector\max_server_listener.py"
 
 -- 检查文件是否存在
 if doesFileExist listenerScript then (

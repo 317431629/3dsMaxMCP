@@ -32,7 +32,7 @@ from max_mcp.log import LogManager, log_file
 
 logger = LogManager.get_logger('3dsMaxMCPServer', __file__, log_file)
 
-__version__ = "0.1.0"
+__version__ = "0.1.0"  # 注意：修改版本号时需同步更新 pyproject.toml 和 __init__.py
 
 _operation_manager = None
 
