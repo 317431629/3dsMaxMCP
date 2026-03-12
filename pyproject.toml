@@ -1,5 +1,5 @@
 [project]
-name = "max-mcp"
+name = "3dsmax-mcp"
 version = "0.1.0"
 description = "3ds Max MCP Server - 通过 MCP 协议远程控制 3ds Max"
 readme = "README.md"
@@ -33,7 +33,7 @@ Homepage = "https://github.com/317431629/3dsMaxMCP"
 Repository = "https://github.com/317431629/3dsMaxMCP.git"
 
 [project.scripts]
-max-mcp = "max_mcp:main"
+3dsmax-mcp = "max_mcp:main"
 
 [build-system]
 requires = ["hatchling"]
