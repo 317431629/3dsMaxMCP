@@ -59,9 +59,8 @@ def open_scene(file_path: str, force: str = "false") -> dict:
             # 强制打开，不提示保存
             rt.execute('setSaveRequired false')
 
-        # 使用 loadMaxFile 打开文件
-        # useFileUnits:true 使用文件的单位设置，quiet:true 不弹出对话框
-        result = rt.loadMaxFile(open_path, rt.Name("useFileUnits"), True, rt.Name("quiet"), True)
+        # 打开文件，quiet=True 不弹出对话框
+        result = rt.LoadMaxFile(open_path, quiet=True)
 
         if result:
             return {
